@@ -2,9 +2,14 @@ const express = require("express")
 const http = require("http")
 const app = express()
 const server = http.createServer(app)
+
+//app.use(express.static(path.join(__dirname, "frontend/build")));
+
+
+
 const io = require("socket.io")(server, {
 	cors: {
-		origin: "http://gaspych.web2code.com:7001",
+		origin: "http://localhost:3000",
 		methods: [ "GET", "POST" ]
 	}
 })
