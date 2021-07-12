@@ -95,7 +95,7 @@ function App() {
 
   return (
     <>
-      <h1 style={{ textAlign: "center", color: "#fff" }}>Zoomish</h1>
+      <h1 style={{ textAlign: "center", color: "#fff" }}>Pointrois</h1>
       <div className="container">
         <div className="video-container">
           <div className="video">
